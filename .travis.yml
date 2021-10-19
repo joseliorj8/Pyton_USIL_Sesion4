@@ -1,0 +1,11 @@
+language: python
+version:
+  - 3.6
+before_install:
+  - pyton --version
+  - pip install -U pip
+install:
+  - pip install -r requirements.txt
+script:
+  - pytest
+  - bahave ./test_aceptance/
