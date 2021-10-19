@@ -9,7 +9,7 @@ def employee():
 
 
 def test_get_sales(employee):
-    assert employee.get_sales() == []
+    assert employee.get_sales() == [3]
 
 
 def test_set_sales(employee):
